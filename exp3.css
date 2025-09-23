@@ -1,10 +1,35 @@
 *{
-    padding: 0;
-    margin:0;
+    padding: 5px;
+    margin:5px;
+}
+
+
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.side {
+    flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background: peachpuff;
+  height: 500px;
+  width: 30%;
+ 
+
 }
 .box{
-    padding: 20px;
+    flex: 2;
+    background: peachpuff;
     height: 400px;
-    width: 75%;
-    background-color: bisque;
+    width: 70%;
+    padding: 20px;
+  border-radius: 10px;
+}
+table{
+   border: 1px solid white;
+   padding: 10px;
 }
